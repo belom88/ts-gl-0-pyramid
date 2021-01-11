@@ -34,11 +34,11 @@ Develompent server is run on 8080 port (http://localhost:8080)
 
 The application is fully implemented on Typescript.
 
-- [scenes/pyramid/pyramid-scene.ts](scenes/pyramid/pyramid-scene.ts) - rendering pyramid into GL context;
-- [core/gl-context.ts](core/gl-context.ts) - getting GL context having html selector of `canvas` element;
-- [core/gl-matrix.ts](core/gl-matrix.ts) - 4*4 matrix mathematics;
-- [core/gl-shader.ts](core/gl-shader.ts) - initialization of shader programs;
-- [tools/angles.ts](tools/angles.ts) - transformation angles from degrees to radians.
+- [src/scenes/pyramid/pyramid-scene.ts](src/scenes/pyramid/pyramid-scene.ts) - rendering pyramid into GL context;
+- [scr/core/gl-context.ts](src/core/gl-context.ts) - getting GL context having html selector of `canvas` element;
+- [scr/core/gl-matrix.ts](src/core/gl-matrix.ts) - 4*4 matrix mathematics;
+- [scr/core/gl-shader.ts](src/core/gl-shader.ts) - initialization of shader programs;
+- [scr/tools/angles.ts](src/tools/angles.ts) - transformation angles from degrees to radians.
 
 ## License
 
